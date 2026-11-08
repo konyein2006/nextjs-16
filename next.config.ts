@@ -15,6 +15,20 @@ const nextConfig: NextConfig = {
       },
     },
   },
+  images: {
+    remotePatterns: [
+      {
+        hostname: "images.unsplash.com",
+        protocol: "https",
+        port: "",
+      },
+      {
+        hostname: "silent-cuttlefish-7.ap-southeast-2.convex.cloud",
+        protocol: "https",
+        port: "",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
